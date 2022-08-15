@@ -1,8 +1,10 @@
---replacement_cost sütununun veri tipi numeric ve precision değeri 5 
---bu sebeple 16.99dan küçük olma durumunu 16.99dan küçük en büyük değer ile sınırlandırdım.
+www.patika.dev SQL // Ödev 2
+
 SELECT * FROM film
 WHERE replacement_cost BETWEEN 12.99 AND 16.98999	
 ORDER BY replacement_cost DESC;
+--replacement_cost sütununun veri tipi numeric ve precision değeri 5 
+--bu sebeple 16.99dan küçük olma durumunu 16.99dan küçük en büyük değer ile sınırlandırdım.
 --Total rows: 198 of 198
 
 SELECT first_name,last_name FROM actor
