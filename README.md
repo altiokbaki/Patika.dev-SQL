@@ -3,6 +3,7 @@ Patika.dev SQL kursundaki ödev yanıtlarımı içerir.
 PostgreSQL kullanılmıştır.Örnek veritabanı olan dvdrental indirme linki :https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 
 //Ödev 1
+
 Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
 film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
@@ -12,6 +13,7 @@ customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşter
 film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
 //Ödev2
+
 Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
 film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
@@ -19,6 +21,7 @@ film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.
 film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
 
 //Ödev3
+
 Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
 
 country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
