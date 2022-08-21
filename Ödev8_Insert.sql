@@ -1,17 +1,3 @@
-www.patika.dev SQL // Ödev8
-
-/*
-test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
-Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
-Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
-Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
-*/
-CREATE TABLE employee(
-	id SERIAL PRIMARY KEY,
-	name VARCHAR(50) NOT NULL,
-	birthday DATE,
-	email VARCHAR(100)
-);
 insert into employee (name, birthday, email) values ('Cyrill Whiteland', '2018-01-25', 'cwhiteland0@creativecommons.org');
 insert into employee (name, birthday, email) values ('Dee dee Bursnoll', '1955-05-19', 'ddee1@ocn.ne.jp');
 insert into employee (name, birthday, email) values ('Tadeas Hardinge', null, null);
@@ -61,5 +47,4 @@ insert into employee (name, birthday, email) values ('Ajay Daymont', '2019-06-01
 insert into employee (name, birthday, email) values ('Stavros Gaywood', '1926-04-29', 'sgaywood1a@instagram.com');
 insert into employee (name, birthday, email) values ('Fiann Geerdts', '2016-05-07', 'fgeerdts1b@last.fm');
 insert into employee (name, birthday, email) values ('Quincy Farady', null, null);
-insert into employee (name, birthday, email) values ('Buiron Cleverley', null, null)
-SELECT * FROM employee;
+insert into employee (name, birthday, email) values ('Buiron Cleverley', null, null);
