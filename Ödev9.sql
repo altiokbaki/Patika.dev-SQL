@@ -1,6 +1,6 @@
 www.patika.dev SQL // Ödev9
 
-SELECT city AS cities , country.country AS countries FROM city
+SELECT city AS cities , country AS countries FROM city
 INNER JOIN country ON city.country_id = country.country_id
 --WHERE country.country = 'Turkey';
 
